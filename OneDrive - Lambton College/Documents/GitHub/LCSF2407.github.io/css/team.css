@@ -1,0 +1,55 @@
+h1 {
+  margin-bottom: 24px;
+}
+
+figure {
+  margin: 0;
+}
+
+.our-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.our-team img {
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.row-container {
+  display: flex;
+  gap: 32px;
+}
+
+.row-container section {
+  flex-basis: 70%;
+}
+
+.row-container section p {
+  font-size: 1.2rem;
+}
+
+aside {
+    align-self: flex-end;
+
+}
+
+aside h2 {
+  margin-bottom: 24px;
+}
+
+.news-links {
+  list-style-type: none;
+  padding: 0;
+  font-style: italic;
+}
+
+.news-links li {
+  margin-bottom: 1rem;
+}
+
+aside a {
+  color: white;
+  text-decoration: underline;
+}

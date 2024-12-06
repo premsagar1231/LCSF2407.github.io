@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BreezeWorks - Specials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="../images/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html" class="nav-logo">
+        <img src="../images/logo.png" alt="BreezeWorks Logo" class="logo" />
+      </a>
+      <div class="nav-links-container">
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./team.html">Our Team</a>
+        <a href="./specials.html">Specials</a>
+        <a href="./training.html">Training</a>
+        <a href="./media.html">Media</a>
+        <a href="./contact.html">Contact Us</a>
+      </div>
+    </nav>
+    <div class="card form-container">
+      <div>
+        <h1>Contact us</h1>
+
+        <div class="form-instructions">
+          <h2>How to Complete This Form</h2>
+          <ol>
+            <li>All fields marked with an asterisk (*) are required.</li>
+            <li>Please provide accurate contact information.</li>
+            <li>Describe your inquiry as clearly and concisely as possible.</li>
+            <li>Click 'Submit' when you have completed the form.</li>
+            <li>Expect a response within 1-2 business days.</li>
+          </ol>
+        </div>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contact Information</legend>
+
+            <div class="form-group">
+              <label for="fullName">Full Name*</label>
+              <input type="text" id="fullName" name="fullName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address*</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" />
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department*</label>
+              <select id="department" name="department" required>
+                <option value="">Select a Department</option>
+                <option value="sales">Sales</option>
+                <option value="support">Technical Support</option>
+                <option value="billing">Billing</option>
+                <option value="general">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message*</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Preferred Contact Method*</label>
+              <div class="radio-group">
+                <div class="radio-container">
+                  <input
+                    type="radio"
+                    id="contactEmail"
+                    name="contactMethod"
+                    value="email"
+                    required
+                  />
+                  <label for="contactEmail">Email</label>
+                </div>
+                <div class="radio-container">
+                  <input
+                    type="radio"
+                    id="contactPhone"
+                    name="contactMethod"
+                    value="phone"
+                  />
+                  <label for="contactPhone">Phone</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label style="display: flex; gap: 8px; align-items: center;">
+                <input type="checkbox" name="subscribe" value="yes" style=" width: auto;" />
+                Subscribe to our newsletter
+              </label>
+            </div>
+
+            <div class="form-group submit-group">
+              <button type="submit">Submit Inquiry</button>
+              <button type="reset">Reset Form</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <footer>
+      &copy; Copyright 2099. All Rights Reserved.<br />
+      <a href="mailto:info@breezeworks.com">Request information</a><br />
+      [Prem Sagar Kaleedakath Babu] &nbsp; &nbsp; [c0953504]
+    </footer>
+  </body>
+</html>

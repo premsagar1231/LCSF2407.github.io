@@ -1,0 +1,59 @@
+.why-shop-with-us {
+  margin-top: 64px;
+}
+
+ol {
+  list-style-position: inside;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-top: 16px;
+}
+
+li span {
+  font-size: 1.4rem;
+  color: #e5e5e5;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .why-shop-with-us {
+    margin-top: 32px;
+  }
+
+  ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0;
+  }
+
+  li,
+  li span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.38rem;
+  }
+}
+
+
+ 
+
+
+
